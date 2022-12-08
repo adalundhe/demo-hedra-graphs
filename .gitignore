@@ -34,3 +34,11 @@ metrics.json
 examples/__pycache__
 examples/__pycache__/basic.cpython-310.pyc
 examples/__pycache__/test.cpython-310.pyc
+examples
+.hedra.json
+metrics.json
+examples/basic.py
+examples/__pycache__
+examples/test.py
+examples/__pycache__/basic.cpython-310.pyc
+examples/__pycache__/test.cpython-310.pyc

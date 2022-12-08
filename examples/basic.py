@@ -5,10 +5,7 @@ from hedra import (
     Setup,
     Submit,
     Analyze,
-)
-from xml_reporter import (
-    XMLReporter,
-    XMLReporterConfig
+    JSONConfig
 )
 
 
@@ -32,11 +29,8 @@ class AnalyzeResults(Analyze):
 
 
 @depends(AnalyzeResults)
-class XMLResults(Submit):
-    config=XMLReporterConfig(
-        events_filepath='./events.xml',
-        metrics_filepath='./metrics.xml'
+class JSONResults(Submit):
+    config=JSONConfig(
+        events_filepath='./events.json',
+        metrics_filepath='./metrics.json'
     )
-    plugins={
-        'xml': XMLReporter
-    }

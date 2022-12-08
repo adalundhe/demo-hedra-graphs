@@ -28,4 +28,3 @@ class SubmitResultsStage(Submit):
         events_filepath='./events.json',
         metrics_filepath='./metrics.json'
     )
-

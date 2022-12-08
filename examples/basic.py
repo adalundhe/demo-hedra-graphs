@@ -10,7 +10,7 @@ from hedra import (
 
 
 class StageFourSetup(Setup):
-    batch_size=32000
+    batch_size=8000
     total_time="1m"
 
 

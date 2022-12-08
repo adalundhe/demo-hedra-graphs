@@ -17,7 +17,6 @@ class StageFourSetup(Setup):
     total_time="1m"
 
 
-
 @depends(StageFourSetup)
 class StageFour(Execute):
 

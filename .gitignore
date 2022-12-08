@@ -66,3 +66,12 @@ examples/__pycache__/basic.cpython-310.pyc
 examples/__pycache__/test.cpython-310.pyc
 examples/__pycache__/__init__.cpython-310.pyc
 examples/__pycache__/xml_reporter.cpython-310.pyc
+examples
+.hedra.json
+metrics.json
+examples/__pycache__
+examples/test.py
+examples/__pycache__/basic.cpython-310.pyc
+examples/__pycache__/test.cpython-310.pyc
+examples/__pycache__/__init__.cpython-310.pyc
+examples/__pycache__/xml_reporter.cpython-310.pyc

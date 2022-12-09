@@ -4,15 +4,3 @@ stage_metrics.xml
 metrics.json
 __pycache__
 **/*.pyx
-metrics.xml
-.hedra.json
-stage_metrics.xml
-metrics.json
-examples/__pycache__/basic.cpython-310.pyc
-examples/__pycache__/test.cpython-310.pyc
-examples/__pycache__/__init__.cpython-310.pyc
-examples/__pycache__/test_engine.cpython-310.pyc
-examples/__pycache__/test_reporter.cpython-310.pyc
-examples/__pycache__/xml_reporter.cpython-310.pyc
-examples/__pycache__/test_persona.cpython-310.pyc
-examples/__pycache__/test_optimizer.cpython-310.pyc

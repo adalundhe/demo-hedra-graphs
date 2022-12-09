@@ -4,4 +4,3 @@ stage_metrics.xml
 metrics.json
 __pycache__
 **/*.pyx
-__pycache__

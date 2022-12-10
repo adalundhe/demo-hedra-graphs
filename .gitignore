@@ -25,3 +25,12 @@ examples/test_optimizer.py
 examples/basic.py
 examples/test.py
 examples/__init__.py
+
+examples/xml_reporter.py
+examples/test_persona.py
+examples/test_engine.py
+examples/test_reporter.py
+examples/test_optimizer.py
+examples/basic.py
+examples/test.py
+examples/__init__.py

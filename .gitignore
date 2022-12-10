@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.hedra.json
+tests/plugins/__pycache__/__init__.cpython-310.pyc
+tests/__pycache__/__init__.cpython-310.pyc
+__pycache__
+**/*.pyx

@@ -10,8 +10,8 @@ from hedra.plugins.types.reporter import (
     ReporterConfig,
     ReporterPlugin,
     Metrics,
-    connect,
-    close,
+    reporter_connect,
+    reporter_close,
     process_events,
     process_shared,
     process_metrics,
@@ -31,7 +31,7 @@ class XMLReporter(ReporterPlugin[XMLReporterConfig]):
     def __init__(self, config: XMLReporterConfig) -> None:
         super().__init__(config)
 
-    @connect()
+    @reporter_connect()
     async def connect_xml_reporter(self):
         pass
     
@@ -138,6 +138,6 @@ class XMLReporter(ReporterPlugin[XMLReporterConfig]):
                 errors_xml.toprettyxml()
             )
 
-    @close()
+    @reporter_close()
     async def close_xml_reporter(self):
         pass

@@ -37,3 +37,6 @@ examples/__init__.py
 
 examples/xml_reporter.py
 examples/basic.py
+
+examples/xml_reporter.py
+examples/basic.py

@@ -1,13 +1,16 @@
-from typing import Any, Dict, List
 from hedra.plugins.types.engine import (
-	EnginePlugin,
 	Action,
+	EnginePlugin,
 	Result,
+	close,
 	connect,
 	execute,
-	close,
 )
-
+from typing import (
+	Any,
+	Dict,
+	List,
+)
 
 class CustomAction(Action):
 

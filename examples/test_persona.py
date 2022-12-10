@@ -1,15 +1,24 @@
-import time
 import asyncio
-from typing import AsyncIterable, Dict, List
-from hedra.core.graphs.hooks.types.hook_types import HookType
-from hedra.core.graphs.hooks.types.hook import Hook
+import time
+from typing import (
+	AsyncIterable,
+	Dict,
+	List,
+)
+from hedra.core.graphs.hooks.types.hook import (
+	Hook,
+)
+from hedra.core.graphs.hooks.types.hook_types import (
+	HookType,
+)
 from hedra.plugins.types.persona import (
 	PersonaPlugin,
-	setup,
 	generate,
 	shutdown,
 )
-
+from hedra import (
+	setup,
+)
 
 class CustomPersona(PersonaPlugin):
 

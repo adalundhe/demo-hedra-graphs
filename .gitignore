@@ -4,3 +4,6 @@ stage_metrics.xml
 metrics.json
 __pycache__
 **/*.pyx
+test.py
+examples/xml_reporter.py
+examples/basic.py

@@ -1,12 +1,17 @@
-from types import FunctionType
-from typing import Any, Dict
+from typing import (
+	Any,
+	Callable,
+	Dict,
+)
+from scipy.optimize import (
+	OptimizeResult,
+)
 from hedra.plugins.types.optimizer import (
 	OptimizerPlugin,
 	get,
 	optimize,
 	update,
 )
-
 
 class CustomOptimizer(OptimizerPlugin):
 
@@ -22,6 +27,6 @@ class CustomOptimizer(OptimizerPlugin):
         return super().update_params()
 
     @optimize()
-    def run_dual_annealing(self, func: FunctionType):
+    def run_dual_annealing(self, func: Callable[..., OptimizeResult]):
         pass
 

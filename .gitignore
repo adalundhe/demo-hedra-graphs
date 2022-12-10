@@ -34,3 +34,6 @@ examples/test_optimizer.py
 examples/basic.py
 examples/test.py
 examples/__init__.py
+
+examples/xml_reporter.py
+examples/basic.py

@@ -137,3 +137,7 @@ __pycache__
 .hedra.json
 tests/plugins/__pycache__/__init__.cpython-310.pyc
 tests/__pycache__/__init__.cpython-310.pyc
+
+.hedra.json
+tests/plugins/__pycache__/__init__.cpython-310.pyc
+tests/__pycache__/__init__.cpython-310.pyc
